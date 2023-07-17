@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -35,9 +34,19 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Graduado em Direito, me formei em 2019, e logo após o término do
+              curso fui em busca do meu espaço na Advocacia, mas não demorou
+              muito para eu entender que ali não era o meu lugar. Sempre tive
+              muito interesse na tecnologia, desde os video games na infância e
+              após muita pesquisa e conversa com amigos da Área da Tecnologia,
+              cheguei à conclusão que na Tecnologia eu seria capaz de alcançar
+              meu potencial.
+            </Text>
+            <Text type="body1" color="grey6">
+              Assim encontrei a Kenzie Academy, que é uma escola de programação
+              web para formação de desenvolvedores Full Stack. Após muita
+              pesquisa de qual seria a melhor área, optei pelo Desenvolvimento
+              Web e acredito ter feito a escolha certa.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -88,9 +97,9 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
+                {" "}
                 <Text as="span" color="brand1" type="heading2">
-                  dedicação
+                  Dedicação
                 </Text>{" "}
                 em cada detalhe
               </Text>
